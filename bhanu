@@ -1,0 +1,12 @@
+try {
+            jcmdr.parse(args);
+        } catch (ParameterException ex) {
+            System.err.println(ex.getMessage());
+            return;
+        }
+
+        if (commonArgs.help) {
+            jcmdr.usage();
+            return;
+        }
+
