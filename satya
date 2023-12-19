@@ -1,0 +1,7 @@
+"parameters": {
+    "vnetName": {
+        "type": "string",
+        "defaultValue": "myCoolVnet"
+     }
+ }
+
